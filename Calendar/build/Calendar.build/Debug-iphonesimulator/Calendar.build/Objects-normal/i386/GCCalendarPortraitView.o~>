@@ -1,0 +1,2 @@
+/Users/calebdavenport/Desktop/Calendar/CGCalendar/GCCalendarPortraitView.m: In function '-[GCCalendarPortraitView calendarTileTouch:]':
+/Users/calebdavenport/Desktop/Calendar/CGCalendar/GCCalendarPortraitView.m:74: warning: unused variable 'event'
