@@ -1,0 +1,173 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* CalendarAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1005, 495}}";
+			sepNavSelRange = "{199, 0}";
+			sepNavVisRange = "{0, 358}";
+		};
+	};
+	1D3623250D0F684500981E51 /* CalendarAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1005, 1131}}";
+			sepNavSelRange = "{343, 0}";
+			sepNavVisRange = "{1058, 1221}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Calendar */ = {
+		activeExec = 0;
+		executables = (
+			3BE7A656110CBEB1001BB976 /* Calendar */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 3BE7A656110CBEB1001BB976 /* Calendar */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Calendar */;
+		codeSenseManager = 3BE7A663110CBED0001BB976 /* Code sense */;
+		executables = (
+			3BE7A656110CBEB1001BB976 /* Calendar */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					827,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 286047921;
+			PBXWorkspaceStateSaveDate = 286047921;
+		};
+		perUserProjectItems = {
+			3BE7A670110CBF52001BB976 /* PBXTextBookmark */ = 3BE7A670110CBF52001BB976 /* PBXTextBookmark */;
+			3BE7A671110CBF52001BB976 /* PBXTextBookmark */ = 3BE7A671110CBF52001BB976 /* PBXTextBookmark */;
+			3BE7A673110CBF52001BB976 /* PBXTextBookmark */ = 3BE7A673110CBF52001BB976 /* PBXTextBookmark */;
+			3BE7A674110CBF52001BB976 /* PBXTextBookmark */ = 3BE7A674110CBF52001BB976 /* PBXTextBookmark */;
+			3BE7A675110CBF52001BB976 /* PBXTextBookmark */ = 3BE7A675110CBF52001BB976 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 3BE7A662110CBED0001BB976 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3BACD138110CB35400528B6D /* GCCalendar.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1005, 1287}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2403, 861}";
+		};
+	};
+	3BE7A656110CBEB1001BB976 /* Calendar */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Calendar;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	3BE7A662110CBED0001BB976 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	3BE7A663110CBED0001BB976 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	3BE7A670110CBF52001BB976 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* CalendarAppDelegate.h */;
+		name = "CalendarAppDelegate.h: 11";
+		rLen = 0;
+		rLoc = 199;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	3BE7A671110CBF52001BB976 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3BE7A672110CBF52001BB976 /* GCCalendar.m */;
+		name = "GCCalendar.m: 84";
+		rLen = 1193;
+		rLoc = 2975;
+		rType = 0;
+		vrLen = 1089;
+		vrLoc = 2871;
+	};
+	3BE7A672110CBF52001BB976 /* GCCalendar.m */ = {
+		isa = PBXFileReference;
+		name = GCCalendar.m;
+		path = "/Users/calebdavenport/Downloads/guicocoa-GCCalendar-707ea0e/Calendar/GCCalendar/GCCalendar.m";
+		sourceTree = "<absolute>";
+	};
+	3BE7A673110CBF52001BB976 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3BACD138110CB35400528B6D /* GCCalendar.m */;
+		name = "GCCalendar.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 2403;
+	};
+	3BE7A674110CBF52001BB976 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CalendarAppDelegate.m */;
+		name = "CalendarAppDelegate.m: 45";
+		rLen = 0;
+		rLoc = 2314;
+		rType = 0;
+		vrLen = 958;
+		vrLoc = 152;
+	};
+	3BE7A675110CBF52001BB976 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* CalendarAppDelegate.m */;
+		name = "CalendarAppDelegate.m: 16";
+		rLen = 0;
+		rLoc = 343;
+		rType = 0;
+		vrLen = 1221;
+		vrLoc = 1058;
+	};
+}

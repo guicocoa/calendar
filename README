@@ -14,7 +14,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OU
 How to use:
 - Drag the GCCalendar folder from this project into the top level of your Xcode project tree.  Make sure "copy items…" and "recursively create…" are selected.
 - Import the GCCalendar.h header file anywhere you would like to use the calendar API.
-- Overwrite the contents of calendarEventsForDate: in GCCalendar.m to provoke the calendar UI with a list of events to display.
+- Implement the GCCalendarDataSource protocol and place the required method in your class.
 
 Known issues (v1.0):
 - Events that have start and end dates not on the same day may behave unexpectedly.

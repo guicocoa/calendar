@@ -32,6 +32,12 @@
 // name of the notification passed from GCCalendarTile objects to the GCCalendarPortraitView
 static NSString * const CGCalendarTileTouchNotification = @"GCCalendarTileTouch";
 
+@protocol GCCalendarDataSource <NSObject>
+@required
+- (NSArray *)calendarEventsForDate:(NSDate *)date;
+@end
+
+
 /*
  GCCalendar provides several key utility methods, as well as a centralized
  calendar imports location.  The notable function of this class is the
@@ -56,7 +62,13 @@ static NSString * const CGCalendarTileTouchNotification = @"GCCalendarTileTouch"
  this method is called by GCCalendarDay as part of its reloadData function.
  the date to be displayed is passed so that data for the appropriate date can
  be converted into events
+ 
+ this method call is simply forwarded to the data source of this class
  */
 + (NSArray *)calendarEventsForDate:(NSDate *)date;
+// sets the data source
++ (void)setDataSource:(id<GCCalendarDataSource>)source;
+// gets the data source
++ (id<GCCalendarDataSource>)dataSource;
 
 @end

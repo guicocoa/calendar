@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CalendarAppDelegate : NSObject <UIApplicationDelegate> {
+#import "GCCalendar.h"
+
+@interface CalendarAppDelegate : NSObject <UIApplicationDelegate, GCCalendarDataSource> {
     UIWindow *window;
 	UITabBarController *tabController;
 }

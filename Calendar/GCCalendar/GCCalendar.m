@@ -25,6 +25,7 @@
 static NSArray *colors;
 static NSDateFormatter *dateFormatter;
 static NSDateFormatter *timeFormatter;
+static id<GCCalendarDataSource> dataSource;
 
 @implementation GCCalendar
 
@@ -79,50 +80,19 @@ static NSDateFormatter *timeFormatter;
 	return colors;
 }
 
-#pragma mark override this
+#pragma mark delegate call
++ (void)setDataSource:(id<GCCalendarDataSource>)source {
+	dataSource = source;
+}
++ (id<GCCalendarDataSource>)dataSource {
+	return dataSource;
+}
 + (NSArray *)calendarEventsForDate:(NSDate *)date {
-	NSMutableArray *events = [NSMutableArray array];
-	
-	/*
-	 OVERWRITE THIS CODE
-	 */
-	NSDateComponents *components = [[NSCalendar currentCalendar] components:
-									(NSWeekdayCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSYearCalendarUnit)
-																   fromDate:date];
-	[components setSecond:0];
-	
-	// create 5 calendar events that aren't all day events
-	for (NSInteger i = 0; i < 5; i++) {
-		GCCalendarEvent *event = [[GCCalendarEvent alloc] init];
-		event.color = [[self colors] objectAtIndex:i];
-		event.allDayEvent = NO;
-		event.eventName = [event.color capitalizedString];
-		event.eventDescription = event.eventName;
-		
-		[components setHour:12 + i];
-		[components setMinute:0];
-		
-		event.startDate = [[NSCalendar currentCalendar] dateFromComponents:components];
-		
-		[components setMinute:50];
-		
-		event.endDate = [[NSCalendar currentCalendar] dateFromComponents:components];
-		
-		[events addObject:event];
-		[event release];
+	if (dataSource != nil) {
+		return [dataSource calendarEventsForDate:date];
 	}
 	
-	// create an all day event
-	GCCalendarEvent *event = [[GCCalendarEvent alloc] init];
-	event.allDayEvent = YES;
-	event.eventName = @"All Day Event";
-	[events addObject:event];
-	[event release];
-	/*
-	 END OVERWRITE
-	 */
-	
-	return events;
+	return nil;
 }
 
 @end
