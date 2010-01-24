@@ -1,24 +1,12 @@
-/*
- Copyright (c) 2010 Caleb Davenport
- 
- Permission is hereby granted, free of charge, to any person obtaining a copy
- of this software and associated documentation files (the "Software"), to deal
- in the Software without restriction, including without limitation the rights
- to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- copies of the Software, and to permit persons to whom the Software is
- furnished to do so, subject to the following conditions:
- 
- The above copyright notice and this permission notice shall be included in
- all copies or substantial portions of the Software.
- 
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- THE SOFTWARE.
- */
+//
+//  GCCalendarDayView.m
+//  GCCalendar
+//
+//	GUI Cocoa Common Code Library
+//
+//  Created by Caleb Davenport on 1/23/10.
+//  Copyright GUI Cocoa Software 2010. All rights reserved.
+//
 
 #import "GCCalendar.h"
 
@@ -126,6 +114,7 @@ static NSArray *timeStrings;
 
 - (id)initWithEvents:(NSArray *)a;
 - (BOOL)hasEvents;
++ (CGFloat)yValueForTime:(CGFloat)time;
 
 @end
 
@@ -190,94 +179,100 @@ static NSArray *timeStrings;
     // grab current graphics context
 	CGContextRef g = UIGraphicsGetCurrentContext();
 	
-	// fill white background
+	CGContextSetRGBFillColor(g, (242.0 / 255.0), (242.0 / 255.0), (242.0 / 255.0), 1.0);
+	
+	// fill morning hours light grey
+	CGFloat morningHourMax = [GCCalendarTodayView yValueForTime:(CGFloat)8];
+	CGRect morningHours = CGRectMake(0, 0, self.frame.size.width, morningHourMax - 1);	
+	CGContextFillRect(g, morningHours);
+
+	// fill evening hours light grey
+	CGFloat eveningHourMax = [GCCalendarTodayView yValueForTime:(CGFloat)20];
+	CGRect eveningHours = CGRectMake(0, eveningHourMax - 1, self.frame.size.width, self.frame.size.height - eveningHourMax + 1);
+	CGContextFillRect(g, eveningHours);
+	
+	// fill day hours white
 	CGContextSetRGBFillColor(g, 1.0, 1.0, 1.0, 1.0);
-	CGContextFillRect(g, self.frame);
+	CGRect dayHours = CGRectMake(0, morningHourMax - 1, self.frame.size.width, eveningHourMax - morningHourMax);
+	CGContextFillRect(g, dayHours);
 	
-	// set starting location
-	CGFloat y_val = kTopLineBuffer - kHalfHourDiff;
-	
-	// setup text variables
-	UIFont *numberFont = [UIFont boldSystemFontOfSize:14.0];
-	UIFont *textFont = [UIFont systemFontOfSize:12.0];
-	CGSize numberSize;
-	CGSize textSize;
-	
-	for(int i = 0; i < 49; i++) {
-		// calculate y vals based on current hour
-		y_val += kHalfHourDiff;
-		
-		// if i represents an hour
-		if(i % 2 == 0) {
-			CGContextSetShouldAntialias(g, YES);
-			
-			// draw text string
-			NSString *text = nil;
-			// AM
-			if(i < 24 || i == 48) {
-				text = @"AM";
-			}
-			// PM
-			else if(i > 24 && i < 48) {
-				text = @"PM";
-			}
-			
-			if(text != nil) {
-				textSize = [text sizeWithFont:textFont];
-				[[UIColor grayColor] set];
-				[text drawInRect:CGRectMake(kSideLineBuffer - 7 - textSize.width,
-											y_val - (textSize.height / 2),
-											textSize.width, 
-											textSize.height)
-						withFont:textFont];
-			}
-			
-			// draw time string
-			NSInteger arrayIndex = i / 2;
-			NSString *number = [timeStrings objectAtIndex:arrayIndex];
-			numberSize = [number sizeWithFont:numberFont];
-			[[UIColor blackColor] set];
-			if(i == 24) {
-				[number drawInRect:CGRectMake(kSideLineBuffer - 7 - numberSize.width, 
-											  y_val - floor(numberSize.height / 2) - 1,
-											  numberSize.width,
-											  numberSize.height)
-						  withFont:numberFont
-					 lineBreakMode:UILineBreakModeTailTruncation
-						 alignment:UITextAlignmentRight];
-			} else {
-				[number drawInRect:CGRectMake(0, 
-											  y_val - floor(numberSize.height / 2) - 1,
-											  kSideLineBuffer - textSize.width - 10,
-											  numberSize.height)
-						  withFont:numberFont
-					 lineBreakMode:UILineBreakModeTailTruncation
-						 alignment:UITextAlignmentRight];
-			}
-			
-			// draw hour line
-			CGContextSetShouldAntialias(g, NO);
-			CGContextSetRGBStrokeColor(g, 0.0, 0.0, 0.0, .3);
-			const CGFloat pattern[2] = {1.0, 0.0};
-			CGContextSetLineDash(g, 0, pattern, 2);
-		}
-		else {
-			// draw half hour line
-			CGContextSetRGBStrokeColor(g, 0.0, 0.0, 0.0, .2);
-			
-			const CGFloat pattern[2] = {1.0, 1.0};
-			CGContextSetLineDash(g, 0, pattern, 2);
-		}
-		
-		// set path origin
-		CGContextMoveToPoint(g, kSideLineBuffer, y_val);
-		
-		// set path end point
-		CGContextAddLineToPoint(g, self.frame.size.width, y_val);
-		
-		// stroke the path
-		CGContextStrokePath(g);
+	// draw hour lines
+	CGContextSetShouldAntialias(g, NO);
+	const CGFloat solidPattern[2] = {1.0, 0.0};
+	CGContextSetRGBStrokeColor(g, 0.0, 0.0, 0.0, .3);
+	CGContextSetLineDash(g, 0, solidPattern, 2);
+	for (NSInteger i = 0; i < 25; i++) {
+		CGFloat yVal = [GCCalendarTodayView yValueForTime:(CGFloat)i];
+		CGContextMoveToPoint(g, kSideLineBuffer, yVal);
+		CGContextAddLineToPoint(g, self.frame.size.width, yVal);
 	}
+	CGContextStrokePath(g);
+	
+	// draw half hour lines
+	CGContextSetShouldAntialias(g, NO);
+	const CGFloat dashPattern[2] = {1.0, 1.0};
+	CGContextSetRGBStrokeColor(g, 0.0, 0.0, 0.0, .2);
+	CGContextSetLineDash(g, 0, dashPattern, 2);
+	for (NSInteger i = 0; i < 24; i++) {
+		CGFloat time = (CGFloat)i + 0.5f;
+		CGFloat yVal = [GCCalendarTodayView yValueForTime:time];
+		CGContextMoveToPoint(g, kSideLineBuffer, yVal);
+		CGContextAddLineToPoint(g, self.frame.size.width, yVal);
+	}
+	CGContextStrokePath(g);
+	
+	// draw hour numbers
+	CGContextSetShouldAntialias(g, YES);
+	[[UIColor blackColor] set];
+	UIFont *numberFont = [UIFont boldSystemFontOfSize:14.0];
+	for (NSInteger i = 0; i < 25; i++) {
+		CGFloat yVal = [GCCalendarTodayView yValueForTime:(CGFloat)i];
+		NSString *number = [timeStrings objectAtIndex:i];
+		CGSize numberSize = [number sizeWithFont:numberFont];
+		if(i == 12) {
+			[number drawInRect:CGRectMake(kSideLineBuffer - 7 - numberSize.width, 
+										  yVal - floor(numberSize.height / 2) - 1,
+										  numberSize.width,
+										  numberSize.height)
+					  withFont:numberFont
+				 lineBreakMode:UILineBreakModeTailTruncation
+					 alignment:UITextAlignmentRight];
+		} else {
+			[number drawInRect:CGRectMake(0, 
+										  yVal - floor(numberSize.height / 2) - 1,
+										  kSideLineBuffer - 18 - 10,
+										  numberSize.height)
+					  withFont:numberFont
+				 lineBreakMode:UILineBreakModeTailTruncation
+					 alignment:UITextAlignmentRight];
+		}
+	}
+	
+	// draw am / pm text
+	CGContextSetShouldAntialias(g, YES);
+	[[UIColor grayColor] set];
+	UIFont *textFont = [UIFont systemFontOfSize:12.0];
+	for (NSInteger i = 0; i < 25; i++) {
+		NSString *text = nil;
+		if (i < 12) {
+			text = @"AM";
+		}
+		else if (i > 12) {
+			text = @"PM";
+		}
+		if (i != 12) {
+			CGFloat yVal = [GCCalendarTodayView yValueForTime:(CGFloat)i];
+			CGSize textSize = [text sizeWithFont:textFont];
+			[text drawInRect:CGRectMake(kSideLineBuffer - 7 - textSize.width,
+										yVal - (textSize.height / 2),
+										textSize.width, 
+										textSize.height)
+					withFont:textFont];
+		}
+	}
+}
++ (CGFloat)yValueForTime:(CGFloat)time {
+	return kTopLineBuffer + (44.0f * time);;
 }
 @end
 
@@ -319,6 +314,7 @@ static NSArray *timeStrings;
 	
 	// create scroll view
 	scrollView = [[UIScrollView alloc] init];
+	scrollView.backgroundColor = [UIColor colorWithRed:(242.0 / 255.0) green:(242.0 / 255.0) blue:(242.0 / 255.0) alpha:1.0];
 	scrollView.frame = CGRectMake(0, allDayView.frame.size.height, self.frame.size.width,
 								  self.frame.size.height - allDayView.frame.size.height);
 	scrollView.contentSize = CGSizeMake(self.frame.size.width, 1078);
