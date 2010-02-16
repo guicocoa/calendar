@@ -9,7 +9,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 
 #import "GCCalendarEvent.h"
 #import "GCCalendarTile.h"
@@ -17,8 +16,9 @@
 #import "GCDatePickerControl.h"
 #import "GCCalendarPortraitView.h";
 
-// name of the notification passed from GCCalendarTile objects to the GCCalendarPortraitView
-static NSString * const CGCalendarTileTouchNotification = @"GCCalendarTileTouch";
+// calendar notificaions
+static NSString * const GCCalendarTileTouchNotification = @"GCCalendarTileTouch";
+static NSString * const GCCalendarShouldReloadNotification = @"GCCalendarShouldReload";
 
 @protocol GCCalendarDataSource <NSObject>
 @required

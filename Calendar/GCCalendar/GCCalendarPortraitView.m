@@ -34,7 +34,11 @@
 		
 		[[NSNotificationCenter defaultCenter] addObserver:self 
 												 selector:@selector(calendarTileTouch:)
-													 name:CGCalendarTileTouchNotification
+													 name:GCCalendarTileTouchNotification
+												   object:nil];
+		[[NSNotificationCenter defaultCenter] addObserver:self 
+												 selector:@selector(calendarShouldReload:)
+													 name:GCCalendarShouldReloadNotification
 												   object:nil];
 	}
 	
@@ -52,12 +56,10 @@
 	[super dealloc];
 }
 
-#pragma mark core data actions
-- (void)coreDataDidSave:(NSNotification *)notif {
+#pragma mark calendar actions
+- (void)calendarShouldReload:(NSNotification *)notif {
 	viewDirty = YES;
 }
-
-#pragma mark calendar actions
 - (void)calendarTileTouch:(NSNotification *)notif {
 	GCCalendarEvent *event = [[notif object] event];
 	

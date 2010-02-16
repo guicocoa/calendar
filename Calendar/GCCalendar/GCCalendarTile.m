@@ -97,11 +97,11 @@
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)e {
 	UITouch *touch = [touches anyObject];
 	
-	if (CGRectContainsPoint(self.frame, [touch locationInView:self])) {
+	if ([self pointInside:[touch locationInView:self] withEvent:nil]) {
 		[self touchesCancelled:touches withEvent:e];
 		
 		// perform click action
-		[[NSNotificationCenter defaultCenter] postNotificationName:CGCalendarTileTouchNotification
+		[[NSNotificationCenter defaultCenter] postNotificationName:GCCalendarTileTouchNotification
 															object:self];
 	}
 }
