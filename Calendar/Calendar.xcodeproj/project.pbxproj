@@ -12,25 +12,26 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
-		3BACD146110CB35400528B6D /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BACD12C110CB35400528B6D /* Calendar.png */; };
-		3BACD147110CB35400528B6D /* CalendarBubbleBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BACD12D110CB35400528B6D /* CalendarBubbleBlue.png */; };
-		3BACD148110CB35400528B6D /* CalendarBubbleGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BACD12E110CB35400528B6D /* CalendarBubbleGreen.png */; };
-		3BACD149110CB35400528B6D /* CalendarBubbleGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BACD12F110CB35400528B6D /* CalendarBubbleGrey.png */; };
-		3BACD14A110CB35400528B6D /* CalendarBubbleMagenta.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BACD130110CB35400528B6D /* CalendarBubbleMagenta.png */; };
-		3BACD14B110CB35400528B6D /* CalendarBubbleOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BACD131110CB35400528B6D /* CalendarBubbleOrange.png */; };
-		3BACD14C110CB35400528B6D /* CalendarBubblePurple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BACD132110CB35400528B6D /* CalendarBubblePurple.png */; };
-		3BACD14D110CB35400528B6D /* CalendarBubbleRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BACD133110CB35400528B6D /* CalendarBubbleRed.png */; };
-		3BACD14E110CB35400528B6D /* CalendarBubbleYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BACD134110CB35400528B6D /* CalendarBubbleYellow.png */; };
-		3BACD14F110CB35400528B6D /* GCCalendar.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BACD135110CB35400528B6D /* GCCalendar.strings */; };
-		3BACD150110CB35400528B6D /* GCCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BACD138110CB35400528B6D /* GCCalendar.m */; };
-		3BACD151110CB35400528B6D /* GCCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BACD13A110CB35400528B6D /* GCCalendarDayView.m */; };
-		3BACD152110CB35400528B6D /* GCCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BACD13C110CB35400528B6D /* GCCalendarEvent.m */; };
-		3BACD153110CB35400528B6D /* GCCalendarPortraitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BACD13E110CB35400528B6D /* GCCalendarPortraitView.m */; };
-		3BACD154110CB35400528B6D /* GCCalendarTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BACD140110CB35400528B6D /* GCCalendarTile.m */; };
-		3BACD155110CB35400528B6D /* GCDatePickerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BACD142110CB35400528B6D /* GCDatePickerControl.m */; };
-		3BACD156110CB35400528B6D /* GCDatePickerControlBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BACD143110CB35400528B6D /* GCDatePickerControlBackground.png */; };
-		3BACD157110CB35400528B6D /* GCDatePickerControlLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BACD144110CB35400528B6D /* GCDatePickerControlLeft.png */; };
-		3BACD158110CB35400528B6D /* GCDatePickerControlRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BACD145110CB35400528B6D /* GCDatePickerControlRight.png */; };
+		3B96AA731139BC99003FF405 /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B96AA561139BC99003FF405 /* Calendar.png */; };
+		3B96AA741139BC99003FF405 /* CalendarBubbleBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B96AA571139BC99003FF405 /* CalendarBubbleBlue.png */; };
+		3B96AA751139BC99003FF405 /* CalendarBubbleGreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B96AA581139BC99003FF405 /* CalendarBubbleGreen.png */; };
+		3B96AA761139BC99003FF405 /* CalendarBubbleGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B96AA591139BC99003FF405 /* CalendarBubbleGrey.png */; };
+		3B96AA771139BC99003FF405 /* CalendarBubbleMagenta.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B96AA5A1139BC99003FF405 /* CalendarBubbleMagenta.png */; };
+		3B96AA781139BC99003FF405 /* CalendarBubbleOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B96AA5B1139BC99003FF405 /* CalendarBubbleOrange.png */; };
+		3B96AA791139BC99003FF405 /* CalendarBubblePurple.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B96AA5C1139BC99003FF405 /* CalendarBubblePurple.png */; };
+		3B96AA7A1139BC99003FF405 /* CalendarBubbleRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B96AA5D1139BC99003FF405 /* CalendarBubbleRed.png */; };
+		3B96AA7B1139BC99003FF405 /* CalendarBubbleYellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B96AA5E1139BC99003FF405 /* CalendarBubbleYellow.png */; };
+		3B96AA7C1139BC99003FF405 /* GCCalendar.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B96AA5F1139BC99003FF405 /* GCCalendar.strings */; };
+		3B96AA7D1139BC99003FF405 /* GCCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96AA621139BC99003FF405 /* GCCalendar.m */; };
+		3B96AA7E1139BC99003FF405 /* GCCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96AA641139BC99003FF405 /* GCCalendarDayView.m */; };
+		3B96AA7F1139BC99003FF405 /* GCCalendarEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96AA661139BC99003FF405 /* GCCalendarEvent.m */; };
+		3B96AA801139BC99003FF405 /* GCCalendarPortraitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96AA681139BC99003FF405 /* GCCalendarPortraitView.m */; };
+		3B96AA811139BC99003FF405 /* GCCalendarTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96AA6B1139BC99003FF405 /* GCCalendarTile.m */; };
+		3B96AA821139BC99003FF405 /* GCCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96AA6D1139BC99003FF405 /* GCCalendarView.m */; };
+		3B96AA831139BC99003FF405 /* GCDatePickerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B96AA6F1139BC99003FF405 /* GCDatePickerControl.m */; };
+		3B96AA841139BC99003FF405 /* GCDatePickerControlBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B96AA701139BC99003FF405 /* GCDatePickerControlBackground.png */; };
+		3B96AA851139BC99003FF405 /* GCDatePickerControlLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B96AA711139BC99003FF405 /* GCDatePickerControlLeft.png */; };
+		3B96AA861139BC99003FF405 /* GCDatePickerControlRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B96AA721139BC99003FF405 /* GCDatePickerControlRight.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,31 +43,34 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Calendar_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calendar_Prefix.pch; sourceTree = "<group>"; };
-		3BACD12C110CB35400528B6D /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
-		3BACD12D110CB35400528B6D /* CalendarBubbleBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleBlue.png; sourceTree = "<group>"; };
-		3BACD12E110CB35400528B6D /* CalendarBubbleGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleGreen.png; sourceTree = "<group>"; };
-		3BACD12F110CB35400528B6D /* CalendarBubbleGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleGrey.png; sourceTree = "<group>"; };
-		3BACD130110CB35400528B6D /* CalendarBubbleMagenta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleMagenta.png; sourceTree = "<group>"; };
-		3BACD131110CB35400528B6D /* CalendarBubbleOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleOrange.png; sourceTree = "<group>"; };
-		3BACD132110CB35400528B6D /* CalendarBubblePurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubblePurple.png; sourceTree = "<group>"; };
-		3BACD133110CB35400528B6D /* CalendarBubbleRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleRed.png; sourceTree = "<group>"; };
-		3BACD134110CB35400528B6D /* CalendarBubbleYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleYellow.png; sourceTree = "<group>"; };
-		3BACD136110CB35400528B6D /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/GCCalendar.strings; sourceTree = "<group>"; };
-		3BACD137110CB35400528B6D /* GCCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCalendar.h; sourceTree = "<group>"; };
-		3BACD138110CB35400528B6D /* GCCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCalendar.m; sourceTree = "<group>"; };
-		3BACD139110CB35400528B6D /* GCCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCalendarDayView.h; sourceTree = "<group>"; };
-		3BACD13A110CB35400528B6D /* GCCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCalendarDayView.m; sourceTree = "<group>"; };
-		3BACD13B110CB35400528B6D /* GCCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCalendarEvent.h; sourceTree = "<group>"; };
-		3BACD13C110CB35400528B6D /* GCCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCalendarEvent.m; sourceTree = "<group>"; };
-		3BACD13D110CB35400528B6D /* GCCalendarPortraitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCalendarPortraitView.h; sourceTree = "<group>"; };
-		3BACD13E110CB35400528B6D /* GCCalendarPortraitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCalendarPortraitView.m; sourceTree = "<group>"; };
-		3BACD13F110CB35400528B6D /* GCCalendarTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCalendarTile.h; sourceTree = "<group>"; };
-		3BACD140110CB35400528B6D /* GCCalendarTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCalendarTile.m; sourceTree = "<group>"; };
-		3BACD141110CB35400528B6D /* GCDatePickerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDatePickerControl.h; sourceTree = "<group>"; };
-		3BACD142110CB35400528B6D /* GCDatePickerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDatePickerControl.m; sourceTree = "<group>"; };
-		3BACD143110CB35400528B6D /* GCDatePickerControlBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GCDatePickerControlBackground.png; sourceTree = "<group>"; };
-		3BACD144110CB35400528B6D /* GCDatePickerControlLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GCDatePickerControlLeft.png; sourceTree = "<group>"; };
-		3BACD145110CB35400528B6D /* GCDatePickerControlRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GCDatePickerControlRight.png; sourceTree = "<group>"; };
+		3B96AA561139BC99003FF405 /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
+		3B96AA571139BC99003FF405 /* CalendarBubbleBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleBlue.png; sourceTree = "<group>"; };
+		3B96AA581139BC99003FF405 /* CalendarBubbleGreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleGreen.png; sourceTree = "<group>"; };
+		3B96AA591139BC99003FF405 /* CalendarBubbleGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleGrey.png; sourceTree = "<group>"; };
+		3B96AA5A1139BC99003FF405 /* CalendarBubbleMagenta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleMagenta.png; sourceTree = "<group>"; };
+		3B96AA5B1139BC99003FF405 /* CalendarBubbleOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleOrange.png; sourceTree = "<group>"; };
+		3B96AA5C1139BC99003FF405 /* CalendarBubblePurple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubblePurple.png; sourceTree = "<group>"; };
+		3B96AA5D1139BC99003FF405 /* CalendarBubbleRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleRed.png; sourceTree = "<group>"; };
+		3B96AA5E1139BC99003FF405 /* CalendarBubbleYellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBubbleYellow.png; sourceTree = "<group>"; };
+		3B96AA601139BC99003FF405 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/GCCalendar.strings; sourceTree = "<group>"; };
+		3B96AA611139BC99003FF405 /* GCCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCalendar.h; sourceTree = "<group>"; };
+		3B96AA621139BC99003FF405 /* GCCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCalendar.m; sourceTree = "<group>"; };
+		3B96AA631139BC99003FF405 /* GCCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCalendarDayView.h; sourceTree = "<group>"; };
+		3B96AA641139BC99003FF405 /* GCCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCalendarDayView.m; sourceTree = "<group>"; };
+		3B96AA651139BC99003FF405 /* GCCalendarEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCalendarEvent.h; sourceTree = "<group>"; };
+		3B96AA661139BC99003FF405 /* GCCalendarEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCalendarEvent.m; sourceTree = "<group>"; };
+		3B96AA671139BC99003FF405 /* GCCalendarPortraitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCalendarPortraitView.h; sourceTree = "<group>"; };
+		3B96AA681139BC99003FF405 /* GCCalendarPortraitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCalendarPortraitView.m; sourceTree = "<group>"; };
+		3B96AA691139BC99003FF405 /* GCCalendarProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCalendarProtocols.h; sourceTree = "<group>"; };
+		3B96AA6A1139BC99003FF405 /* GCCalendarTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCalendarTile.h; sourceTree = "<group>"; };
+		3B96AA6B1139BC99003FF405 /* GCCalendarTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCalendarTile.m; sourceTree = "<group>"; };
+		3B96AA6C1139BC99003FF405 /* GCCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCCalendarView.h; sourceTree = "<group>"; };
+		3B96AA6D1139BC99003FF405 /* GCCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCCalendarView.m; sourceTree = "<group>"; };
+		3B96AA6E1139BC99003FF405 /* GCDatePickerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDatePickerControl.h; sourceTree = "<group>"; };
+		3B96AA6F1139BC99003FF405 /* GCDatePickerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDatePickerControl.m; sourceTree = "<group>"; };
+		3B96AA701139BC99003FF405 /* GCDatePickerControlBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GCDatePickerControlBackground.png; sourceTree = "<group>"; };
+		3B96AA711139BC99003FF405 /* GCDatePickerControlLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GCDatePickerControlLeft.png; sourceTree = "<group>"; };
+		3B96AA721139BC99003FF405 /* GCDatePickerControlRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GCDatePickerControlRight.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Calendar-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Calendar-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,7 +108,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				3BACD12B110CB35400528B6D /* GCCalendar */,
+				3B96AA551139BC99003FF405 /* GCCalendar */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -141,34 +145,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3BACD12B110CB35400528B6D /* GCCalendar */ = {
+		3B96AA551139BC99003FF405 /* GCCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				3BACD12C110CB35400528B6D /* Calendar.png */,
-				3BACD12D110CB35400528B6D /* CalendarBubbleBlue.png */,
-				3BACD12E110CB35400528B6D /* CalendarBubbleGreen.png */,
-				3BACD12F110CB35400528B6D /* CalendarBubbleGrey.png */,
-				3BACD130110CB35400528B6D /* CalendarBubbleMagenta.png */,
-				3BACD131110CB35400528B6D /* CalendarBubbleOrange.png */,
-				3BACD132110CB35400528B6D /* CalendarBubblePurple.png */,
-				3BACD133110CB35400528B6D /* CalendarBubbleRed.png */,
-				3BACD134110CB35400528B6D /* CalendarBubbleYellow.png */,
-				3BACD135110CB35400528B6D /* GCCalendar.strings */,
-				3BACD137110CB35400528B6D /* GCCalendar.h */,
-				3BACD138110CB35400528B6D /* GCCalendar.m */,
-				3BACD139110CB35400528B6D /* GCCalendarDayView.h */,
-				3BACD13A110CB35400528B6D /* GCCalendarDayView.m */,
-				3BACD13B110CB35400528B6D /* GCCalendarEvent.h */,
-				3BACD13C110CB35400528B6D /* GCCalendarEvent.m */,
-				3BACD13D110CB35400528B6D /* GCCalendarPortraitView.h */,
-				3BACD13E110CB35400528B6D /* GCCalendarPortraitView.m */,
-				3BACD13F110CB35400528B6D /* GCCalendarTile.h */,
-				3BACD140110CB35400528B6D /* GCCalendarTile.m */,
-				3BACD141110CB35400528B6D /* GCDatePickerControl.h */,
-				3BACD142110CB35400528B6D /* GCDatePickerControl.m */,
-				3BACD143110CB35400528B6D /* GCDatePickerControlBackground.png */,
-				3BACD144110CB35400528B6D /* GCDatePickerControlLeft.png */,
-				3BACD145110CB35400528B6D /* GCDatePickerControlRight.png */,
+				3B96AA561139BC99003FF405 /* Calendar.png */,
+				3B96AA571139BC99003FF405 /* CalendarBubbleBlue.png */,
+				3B96AA581139BC99003FF405 /* CalendarBubbleGreen.png */,
+				3B96AA591139BC99003FF405 /* CalendarBubbleGrey.png */,
+				3B96AA5A1139BC99003FF405 /* CalendarBubbleMagenta.png */,
+				3B96AA5B1139BC99003FF405 /* CalendarBubbleOrange.png */,
+				3B96AA5C1139BC99003FF405 /* CalendarBubblePurple.png */,
+				3B96AA5D1139BC99003FF405 /* CalendarBubbleRed.png */,
+				3B96AA5E1139BC99003FF405 /* CalendarBubbleYellow.png */,
+				3B96AA5F1139BC99003FF405 /* GCCalendar.strings */,
+				3B96AA611139BC99003FF405 /* GCCalendar.h */,
+				3B96AA621139BC99003FF405 /* GCCalendar.m */,
+				3B96AA631139BC99003FF405 /* GCCalendarDayView.h */,
+				3B96AA641139BC99003FF405 /* GCCalendarDayView.m */,
+				3B96AA651139BC99003FF405 /* GCCalendarEvent.h */,
+				3B96AA661139BC99003FF405 /* GCCalendarEvent.m */,
+				3B96AA671139BC99003FF405 /* GCCalendarPortraitView.h */,
+				3B96AA681139BC99003FF405 /* GCCalendarPortraitView.m */,
+				3B96AA691139BC99003FF405 /* GCCalendarProtocols.h */,
+				3B96AA6A1139BC99003FF405 /* GCCalendarTile.h */,
+				3B96AA6B1139BC99003FF405 /* GCCalendarTile.m */,
+				3B96AA6C1139BC99003FF405 /* GCCalendarView.h */,
+				3B96AA6D1139BC99003FF405 /* GCCalendarView.m */,
+				3B96AA6E1139BC99003FF405 /* GCDatePickerControl.h */,
+				3B96AA6F1139BC99003FF405 /* GCDatePickerControl.m */,
+				3B96AA701139BC99003FF405 /* GCDatePickerControlBackground.png */,
+				3B96AA711139BC99003FF405 /* GCDatePickerControlLeft.png */,
+				3B96AA721139BC99003FF405 /* GCDatePickerControlRight.png */,
 			);
 			path = GCCalendar;
 			sourceTree = "<group>";
@@ -215,19 +222,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BACD146110CB35400528B6D /* Calendar.png in Resources */,
-				3BACD147110CB35400528B6D /* CalendarBubbleBlue.png in Resources */,
-				3BACD148110CB35400528B6D /* CalendarBubbleGreen.png in Resources */,
-				3BACD149110CB35400528B6D /* CalendarBubbleGrey.png in Resources */,
-				3BACD14A110CB35400528B6D /* CalendarBubbleMagenta.png in Resources */,
-				3BACD14B110CB35400528B6D /* CalendarBubbleOrange.png in Resources */,
-				3BACD14C110CB35400528B6D /* CalendarBubblePurple.png in Resources */,
-				3BACD14D110CB35400528B6D /* CalendarBubbleRed.png in Resources */,
-				3BACD14E110CB35400528B6D /* CalendarBubbleYellow.png in Resources */,
-				3BACD14F110CB35400528B6D /* GCCalendar.strings in Resources */,
-				3BACD156110CB35400528B6D /* GCDatePickerControlBackground.png in Resources */,
-				3BACD157110CB35400528B6D /* GCDatePickerControlLeft.png in Resources */,
-				3BACD158110CB35400528B6D /* GCDatePickerControlRight.png in Resources */,
+				3B96AA731139BC99003FF405 /* Calendar.png in Resources */,
+				3B96AA741139BC99003FF405 /* CalendarBubbleBlue.png in Resources */,
+				3B96AA751139BC99003FF405 /* CalendarBubbleGreen.png in Resources */,
+				3B96AA761139BC99003FF405 /* CalendarBubbleGrey.png in Resources */,
+				3B96AA771139BC99003FF405 /* CalendarBubbleMagenta.png in Resources */,
+				3B96AA781139BC99003FF405 /* CalendarBubbleOrange.png in Resources */,
+				3B96AA791139BC99003FF405 /* CalendarBubblePurple.png in Resources */,
+				3B96AA7A1139BC99003FF405 /* CalendarBubbleRed.png in Resources */,
+				3B96AA7B1139BC99003FF405 /* CalendarBubbleYellow.png in Resources */,
+				3B96AA7C1139BC99003FF405 /* GCCalendar.strings in Resources */,
+				3B96AA841139BC99003FF405 /* GCDatePickerControlBackground.png in Resources */,
+				3B96AA851139BC99003FF405 /* GCDatePickerControlLeft.png in Resources */,
+				3B96AA861139BC99003FF405 /* GCDatePickerControlRight.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,22 +247,23 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* CalendarAppDelegate.m in Sources */,
-				3BACD150110CB35400528B6D /* GCCalendar.m in Sources */,
-				3BACD151110CB35400528B6D /* GCCalendarDayView.m in Sources */,
-				3BACD152110CB35400528B6D /* GCCalendarEvent.m in Sources */,
-				3BACD153110CB35400528B6D /* GCCalendarPortraitView.m in Sources */,
-				3BACD154110CB35400528B6D /* GCCalendarTile.m in Sources */,
-				3BACD155110CB35400528B6D /* GCDatePickerControl.m in Sources */,
+				3B96AA7D1139BC99003FF405 /* GCCalendar.m in Sources */,
+				3B96AA7E1139BC99003FF405 /* GCCalendarDayView.m in Sources */,
+				3B96AA7F1139BC99003FF405 /* GCCalendarEvent.m in Sources */,
+				3B96AA801139BC99003FF405 /* GCCalendarPortraitView.m in Sources */,
+				3B96AA811139BC99003FF405 /* GCCalendarTile.m in Sources */,
+				3B96AA821139BC99003FF405 /* GCCalendarView.m in Sources */,
+				3B96AA831139BC99003FF405 /* GCDatePickerControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3BACD135110CB35400528B6D /* GCCalendar.strings */ = {
+		3B96AA5F1139BC99003FF405 /* GCCalendar.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3BACD136110CB35400528B6D /* English */,
+				3B96AA601139BC99003FF405 /* English */,
 			);
 			name = GCCalendar.strings;
 			sourceTree = "<group>";

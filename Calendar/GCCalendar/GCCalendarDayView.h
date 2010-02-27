@@ -8,7 +8,9 @@
 //  Copyright GUI Cocoa Software 2010. All rights reserved.
 //
 
-#import "GCCalendar.h"
+#import <UIKit/UIKit.h>
+
+#import "GCCalendarProtocols.h"
 
 /*
  GCCalendarDayView is responsible for displaying all dalendar information
@@ -27,6 +29,8 @@
 	NSDate *date;
 	// an array of events for this date
 	NSArray *events;
+	// data source
+	id<GCCalendarDataSource> dataSource;
 }
 
 @property (nonatomic, retain) NSDate *date;
@@ -37,6 +41,7 @@
  */
 @property (nonatomic) CGPoint contentOffset;
 
+- (id)initWithCalendarView:(GCCalendarView *)view;
 - (void)reloadData;
 
 @end

@@ -8,16 +8,14 @@
 
 #import "CalendarAppDelegate.h"
 
-#import "GCCalendar.h"
-
 @implementation CalendarAppDelegate
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-	// set calendar data source
-	[GCCalendar setDataSource:self];
-	
 	// create calendar view
 	GCCalendarPortraitView *calendar = [[[GCCalendarPortraitView alloc] init] autorelease];
+	calendar.dataSource = self;
+	calendar.delegate = self;
+	calendar.hasAddButton = YES;
 	
 	// create navigation view
 	UINavigationController *nav = [[[UINavigationController alloc] initWithRootViewController:calendar] autorelease];
@@ -43,7 +41,7 @@
     [super dealloc];
 }
 
-#pragma mark calendar data source
+#pragma mark GCCalendarDataSource
 - (NSArray *)calendarEventsForDate:(NSDate *)date {
 	NSMutableArray *events = [NSMutableArray array];
 	
@@ -81,6 +79,14 @@
 	[event release];
 	
 	return events;
+}
+
+#pragma mark GCCalendarDelegate
+- (void)calendarTileTouchedInView:(GCCalendarView *)view withEvent:(GCCalendarEvent *)event {
+	NSLog(@"%s", __PRETTY_FUNCTION__);
+}
+- (void)calendarViewAddButtonPressed:(GCCalendarView *)view {
+	NSLog(@"%s", __PRETTY_FUNCTION__);
 }
 
 @end

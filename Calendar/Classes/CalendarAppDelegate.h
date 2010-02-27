@@ -10,7 +10,7 @@
 
 #import "GCCalendar.h"
 
-@interface CalendarAppDelegate : NSObject <UIApplicationDelegate, GCCalendarDataSource> {
+@interface CalendarAppDelegate : NSObject <UIApplicationDelegate, GCCalendarDataSource, GCCalendarDelegate> {
     UIWindow *window;
 	UITabBarController *tabController;
 }

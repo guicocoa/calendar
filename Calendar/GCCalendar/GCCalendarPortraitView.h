@@ -8,10 +8,12 @@
 //  Copyright GUI Cocoa Software 2010. All rights reserved.
 //
 
-#import "GCCalendar.h"
+#import <UIKit/UIKit.h>
 
-@class GCCalendarDayView;
+#import "GCCalendarView.h"
+
 @class GCDatePickerControl;
+@class GCCalendarDayView;
 
 /*
  GCCalendarPortraitView defines the top-level view controller containing
@@ -25,7 +27,7 @@
  push a detailed view controller onto the stack with more information about the
  event (currently unimplemnted)
  */
-@interface GCCalendarPortraitView : UIViewController {
+@interface GCCalendarPortraitView : GCCalendarView {
 	// date the view will display
 	NSDate *date;
 	
@@ -40,6 +42,11 @@
 	
 	// view is on screen
 	BOOL viewVisible;
+	
+	// add button
+	BOOL hasAddButton;
 }
+
+@property (nonatomic, assign) BOOL hasAddButton;
 
 @end

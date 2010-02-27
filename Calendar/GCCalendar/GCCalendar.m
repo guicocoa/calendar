@@ -10,14 +10,13 @@
 
 #import "GCCalendar.h"
 
-static NSArray *colors;
-static NSDateFormatter *dateFormatter;
-static NSDateFormatter *timeFormatter;
-static id<GCCalendarDataSource> dataSource;
+static NSArray *colors = nil;
+static NSDateFormatter *dateFormatter = nil;
+static NSDateFormatter *timeFormatter = nil;
 
 @implementation GCCalendar
 
-#pragma mark utility methods
+#pragma mark date utilities
 + (BOOL)dateIsToday:(NSDate *)date {
 	NSDateComponents *components = nil;
 	
@@ -42,6 +41,8 @@ static id<GCCalendarDataSource> dataSource;
 			todayYear == dateYear &&
 			todayDay == dateDay);
 }
+
+#pragma mark date formatters
 + (NSDateFormatter *)dateFormatter {
 	if (dateFormatter == nil) {
 		dateFormatter = [[NSDateFormatter alloc] init];
@@ -60,27 +61,14 @@ static id<GCCalendarDataSource> dataSource;
 	
 	return timeFormatter;
 }
+
+#pragma mark color list
 + (NSArray *)colors {
 	if (colors == nil) {
 		colors = [[NSArray arrayWithObjects:@"BLUE", @"GREEN", @"ORANGE", @"MAGENTA", @"PURPLE", @"RED", @"YELLOW", nil] retain];
 	}
 	
 	return colors;
-}
-
-#pragma mark delegate call
-+ (void)setDataSource:(id<GCCalendarDataSource>)source {
-	dataSource = source;
-}
-+ (id<GCCalendarDataSource>)dataSource {
-	return dataSource;
-}
-+ (NSArray *)calendarEventsForDate:(NSDate *)date {
-	if (dataSource != nil) {
-		return [dataSource calendarEventsForDate:date];
-	}
-	
-	return nil;
 }
 
 @end

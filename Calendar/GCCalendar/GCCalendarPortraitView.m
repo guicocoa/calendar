@@ -8,6 +8,10 @@
 //  Copyright GUI Cocoa Software 2010. All rights reserved.
 //
 
+#import "GCCalendarPortraitView.h"
+#import "GCCalendarDayView.h"
+#import "GCCalendarTile.h"
+#import "GCDatePickerControl.h"
 #import "GCCalendar.h"
 
 #define kAnimationDuration 0.3f
@@ -21,7 +25,7 @@
 
 @implementation GCCalendarPortraitView
 
-@synthesize date, dayView;
+@synthesize date, dayView, hasAddButton;
 
 #pragma mark create and destroy view
 - (id)init {
@@ -34,7 +38,7 @@
 		
 		[[NSNotificationCenter defaultCenter] addObserver:self 
 												 selector:@selector(calendarTileTouch:)
-													 name:GCCalendarTileTouchNotification
+													 name:__GCCalendarTileTouchNotification
 												   object:nil];
 		[[NSNotificationCenter defaultCenter] addObserver:self 
 												 selector:@selector(calendarShouldReload:)
@@ -51,7 +55,6 @@
 	self.dayView = nil;
 	
 	[dayPicker release];
-	dayPicker = nil;
 	
 	[super dealloc];
 }
@@ -61,16 +64,13 @@
 	viewDirty = YES;
 }
 - (void)calendarTileTouch:(NSNotification *)notif {
-	GCCalendarEvent *event = [[notif object] event];
-	
-	/*
-	 do something with the event
-	 
-	 id info = [event userInfo];
-	 */
+	if (delegate != nil) {
+		GCCalendarTile *tile = [notif object];
+		[delegate calendarTileTouchedInView:self withEvent:[tile event]];
+	}
 }
 
-#pragma mark MGDatePickerControl actions
+#pragma mark GCDatePickerControl actions
 - (void)datePickerDidChangeDate:(GCDatePickerControl *)picker {
 	NSTimeInterval interval = [date timeIntervalSinceDate:picker.date];
 	
@@ -82,7 +82,7 @@
 }
 
 #pragma mark button actions
-- (void)today:(UIBarButtonItem *)button {
+- (void)today {
 	dayPicker.date = [NSDate date];
 	
 	self.date = dayPicker.date;
@@ -90,6 +90,27 @@
 	[[NSUserDefaults standardUserDefaults] setObject:date forKey:@"GCCalendarDate"];
 	
 	[self reloadDayAnimated:NO context:NULL];
+}
+- (void)add {
+	if (delegate != nil) {
+		[delegate calendarViewAddButtonPressed:self];
+	}
+}
+
+#pragma mark custom setters
+- (void)setHasAddButton:(BOOL)b {
+	hasAddButton = b;
+	
+	if (hasAddButton) {
+		UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+																				target:self
+																				action:@selector(add)];
+		self.navigationItem.rightBarButtonItem = button;
+		[button release];
+	}
+	else {
+		self.navigationItem.rightBarButtonItem = nil;
+	}
 }
 
 #pragma mark view notifications
@@ -110,7 +131,7 @@
 	[self.view addSubview:dayPicker];
 	
 	// setup initial day view
-	dayView = [[GCCalendarDayView alloc] init];
+	dayView = [[GCCalendarDayView alloc] initWithCalendarView:self];
 	dayView.frame = CGRectMake(0,
 							   dayPicker.frame.size.height,
 							   self.view.frame.size.width,
@@ -122,7 +143,7 @@
 	UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithTitle:[[NSBundle mainBundle] localizedStringForKey:@"TODAY" value:@"" table:@"GCCalendar"]
 															   style:UIBarButtonItemStylePlain
 															  target:self 
-															  action:@selector(today:)];
+															  action:@selector(today)];
 	self.navigationItem.leftBarButtonItem = button;
 	[button release];
 }
@@ -151,7 +172,7 @@
 		dayPicker.userInteractionEnabled = NO;
 		
 		// setup next day view
-		GCCalendarDayView *nextDayView = [[GCCalendarDayView alloc] init];
+		GCCalendarDayView *nextDayView = [[GCCalendarDayView alloc] initWithCalendarView:self];
 		CGRect initialFrame = dayView.frame;
 		if (interval < 0) {
 			initialFrame.origin.x = initialFrame.size.width;

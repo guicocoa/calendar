@@ -8,7 +8,7 @@
 //  Copyright GUI Cocoa Software 2010. All rights reserved.
 //
 
-#import "GCCalendar.h"
+#import <Foundation/Foundation.h>
 
 /*
  GCCalendarEvent is the model object that GCCalendarTiles use to

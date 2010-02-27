@@ -8,23 +8,18 @@
 //  Copyright GUI Cocoa Software 2010. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
+#import "GCCalendarView.h"
 #import "GCCalendarEvent.h"
-#import "GCCalendarTile.h"
-#import "GCCalendarDayView.h"
-#import "GCDatePickerControl.h"
-#import "GCCalendarPortraitView.h";
+#import "GCCalendarProtocols.h"
+#import "GCCalendarPortraitView.h"
 
 // calendar notificaions
-static NSString * const GCCalendarTileTouchNotification = @"GCCalendarTileTouch";
 static NSString * const GCCalendarShouldReloadNotification = @"GCCalendarShouldReload";
 
-@protocol GCCalendarDataSource <NSObject>
-@required
-- (NSArray *)calendarEventsForDate:(NSDate *)date;
-@end
-
+// private notifications
+static NSString * const __GCCalendarTileTouchNotification = @"__GCCalendarTileTouchNotification";
 
 /*
  GCCalendar provides several key utility methods, as well as a centralized
@@ -36,27 +31,18 @@ static NSString * const GCCalendarShouldReloadNotification = @"GCCalendarShouldR
 	
 }
 
+#pragma mark date utilities
 // asks if a given date is today by comparing day, month, and year values
 + (BOOL)dateIsToday:(NSDate *)date;
+
+#pragma mark get date formatters
 // returns a single date formatter with a "medium" date style
 + (NSDateFormatter *)dateFormatter;
 // returns a single time formatter with a "short" time style
 + (NSDateFormatter *)timeFormatter;
+
+#pragma mark color list
 // returns a list of supported calendar event colors
 + (NSArray *)colors;
-/*
- returns an array of calendar events
- 
- this method is called by GCCalendarDay as part of its reloadData function.
- the date to be displayed is passed so that data for the appropriate date can
- be converted into events
- 
- this method call is simply forwarded to the data source of this class
- */
-+ (NSArray *)calendarEventsForDate:(NSDate *)date;
-// sets the data source
-+ (void)setDataSource:(id<GCCalendarDataSource>)source;
-// gets the data source
-+ (id<GCCalendarDataSource>)dataSource;
 
 @end

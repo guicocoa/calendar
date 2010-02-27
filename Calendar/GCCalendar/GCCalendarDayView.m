@@ -8,6 +8,10 @@
 //  Copyright GUI Cocoa Software 2010. All rights reserved.
 //
 
+#import "GCCalendarDayView.h"
+#import "GCCalendarTile.h"
+#import "GCCalendarView.h"
+#import "GCCalendarEvent.h"
 #import "GCCalendar.h"
 
 #define kTileLeftSide 52.0f
@@ -290,6 +294,13 @@ static NSArray *timeStrings;
 					   retain];
 	}
 }
+- (id)initWithCalendarView:(GCCalendarView *)view {
+	if (self = [super init]) {
+		dataSource = view.dataSource;
+	}
+	
+	return self;
+}
 - (void)dealloc {
 	self.date = nil;
 	
@@ -297,7 +308,7 @@ static NSArray *timeStrings;
 }
 - (void)reloadData {
 	// get new events for date
-	events = [GCCalendar calendarEventsForDate:date];
+	events = [dataSource calendarEventsForDate:date];
 	
 	// drop all subviews
 	[self.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];

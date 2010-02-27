@@ -8,6 +8,8 @@
 //  Copyright GUI Cocoa Software 2010. All rights reserved.
 //
 
+#import "GCCalendarTile.h"
+#import "GCCalendarEvent.h"
 #import "GCCalendar.h"
 
 @implementation GCCalendarTile
@@ -100,8 +102,7 @@
 	if ([self pointInside:[touch locationInView:self] withEvent:nil]) {
 		[self touchesCancelled:touches withEvent:e];
 		
-		// perform click action
-		[[NSNotificationCenter defaultCenter] postNotificationName:GCCalendarTileTouchNotification
+		[[NSNotificationCenter defaultCenter] postNotificationName:__GCCalendarTileTouchNotification
 															object:self];
 	}
 }

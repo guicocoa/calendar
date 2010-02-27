@@ -8,6 +8,7 @@
 //  Copyright GUI Cocoa Software 2010. All rights reserved.
 //
 
+#import "GCDatePickerControl.h"
 #import "GCCalendar.h"
 
 @interface GCDatePickerControl ()

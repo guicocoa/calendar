@@ -8,7 +8,7 @@
 //  Copyright GUI Cocoa Software 2010. All rights reserved.
 //
 
-#import "GCCalendar.h"
+#import "GCCalendarEvent.h"
 
 @implementation GCCalendarEvent
 
