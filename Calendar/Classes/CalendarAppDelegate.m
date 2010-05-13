@@ -83,7 +83,7 @@
 
 #pragma mark GCCalendarDelegate
 - (void)calendarTileTouchedInView:(GCCalendarView *)view withEvent:(GCCalendarEvent *)event {
-	NSLog(@"%s", __PRETTY_FUNCTION__);
+	NSLog(@"Touch event %@", event.eventName);
 }
 - (void)calendarViewAddButtonPressed:(GCCalendarView *)view {
 	NSLog(@"%s", __PRETTY_FUNCTION__);
