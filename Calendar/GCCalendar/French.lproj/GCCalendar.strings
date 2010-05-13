@@ -1,0 +1,5 @@
+// calendar strings
+"TODAY" = "Aujourd'hui";
+"CALENDAR" = "Calendrier";
+"ALL_DAY" = "Toute la journée";
+"NOON" = "Midi";
