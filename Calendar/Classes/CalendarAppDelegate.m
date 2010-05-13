@@ -49,7 +49,7 @@
 									(NSWeekdayCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSYearCalendarUnit)
 																   fromDate:date];
 	[components setSecond:0];
-	
+
 	// create 5 calendar events that aren't all day events
 	for (NSInteger i = 0; i < 5; i++) {
 		GCCalendarEvent *event = [[GCCalendarEvent alloc] init];
@@ -70,6 +70,20 @@
 		[events addObject:event];
 		[event release];
 	}
+
+
+	GCCalendarEvent *evt = [[GCCalendarEvent alloc] init];
+	evt.color = [[GCCalendar colors] objectAtIndex:1];
+	evt.allDayEvent = NO;
+	evt.eventName = @"Test event";
+	evt.eventDescription = @"Description for test event. This is intentionnaly too long to stay on a single line.";
+	[components setHour:18];
+	[components setMinute:0];
+	evt.startDate = [[NSCalendar currentCalendar] dateFromComponents:components];
+	[components setHour:20];
+	evt.endDate = [[NSCalendar currentCalendar] dateFromComponents:components];
+	[events addObject:evt];
+	[evt release];
 	
 	// create an all day event
 	GCCalendarEvent *event = [[GCCalendarEvent alloc] init];

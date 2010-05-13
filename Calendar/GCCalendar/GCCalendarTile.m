@@ -33,6 +33,8 @@
 		descriptionLabel.textColor = [UIColor whiteColor];
 		descriptionLabel.shadowColor = [UIColor colorWithWhite:0.0f alpha:0.5f];
 		descriptionLabel.font = [UIFont systemFontOfSize:12.0f];
+		descriptionLabel.lineBreakMode = UILineBreakModeWordWrap;
+		descriptionLabel.numberOfLines = 0;
 		
 		backgroundView = [[UIImageView alloc] init];
 		backgroundView.alpha = 0.90f;
@@ -81,11 +83,10 @@
 		descriptionLabel.frame = CGRectZero;
 	}
 	else {
-		stringSize = [descriptionLabel.text sizeWithFont:descriptionLabel.font];
 		descriptionLabel.frame = CGRectMake(6,
 											titleLabel.frame.size.height + 2,
 											myBounds.size.width - 12,
-											stringSize.height);
+											myBounds.size.height - 14 - titleLabel.frame.size.height);
 	}
 }
 
