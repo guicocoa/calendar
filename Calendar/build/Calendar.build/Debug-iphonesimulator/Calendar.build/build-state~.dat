@@ -1,672 +1,0 @@
-TCalendar
-v7
-r0
-t288996417.778547
-cCheck dependencies
-cProcessInfoPlistFile "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Info.plist" Calendar-Info.plist
-cCpResource build/Debug-iphonesimulator/Calendar.app/Calendar.png GCCalendar/Calendar.png
-cCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleBlue.png GCCalendar/CalendarBubbleBlue.png
-cCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleGreen.png GCCalendar/CalendarBubbleGreen.png
-cCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleGrey.png GCCalendar/CalendarBubbleGrey.png
-cCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleMagenta.png GCCalendar/CalendarBubbleMagenta.png
-cCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleOrange.png GCCalendar/CalendarBubbleOrange.png
-cCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubblePurple.png GCCalendar/CalendarBubblePurple.png
-cCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleRed.png GCCalendar/CalendarBubbleRed.png
-cCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleYellow.png GCCalendar/CalendarBubbleYellow.png
-cCopyStringsFile "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/English.lproj/GCCalendar.strings" GCCalendar/English.lproj/GCCalendar.strings
-cCpResource build/Debug-iphonesimulator/Calendar.app/GCDatePickerControlBackground.png GCCalendar/GCDatePickerControlBackground.png
-cCpResource build/Debug-iphonesimulator/Calendar.app/GCDatePickerControlLeft.png GCCalendar/GCDatePickerControlLeft.png
-cCpResource build/Debug-iphonesimulator/Calendar.app/GCDatePickerControlRight.png GCCalendar/GCDatePickerControlRight.png
-cProcessPCH /var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch.gch Calendar_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/main.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/CalendarAppDelegate.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/Classes/CalendarAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendar.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendar.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarDayView.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarDayView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarEvent.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarEvent.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarPortraitView.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarPortraitView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarTile.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarTile.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarView.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCDatePickerControl.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControl.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Calendar" normal i386
-cGenerateDSYMFile "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app.dSYM" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Calendar"
-cTouch "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
-c000000004B2B86DD00000000000000EE
-t1261143773
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004ABDC853000000000026DAB0
-t1253951571
-s2546352
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004ABDC952000000000027D510
-t1253951826
-s2610448
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004ABDC93F0000000000001355
-t1253951807
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004ABDEE1D0000000000000788
-t1253961245
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004ABDEEE20000000001670E70
-t1253961442
-s23531120
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/Calendar_Prefix.pch
-c000000004B5BB39900000000000000B9
-t1264300953
-s185
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/Classes/CalendarAppDelegate.h
-c000000004B5C87450000000000000166
-t1264355141
-s358
-i<UIKit/UIKit.h>
-i"GCCalendar.h"
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/Classes/CalendarAppDelegate.m
-c000000004B5C87C00000000000000913
-t1264355264
-s2323
-i"CalendarAppDelegate.h"
-i"GCCalendar.h"
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/Calendar.png
-c000000004B7BFA8C00000000000000DC
-t1266416268
-s220
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleBlue.png
-c000000004B7BFA8C0000000000000C93
-t1266416268
-s3219
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleGreen.png
-c000000004B7BFA8C0000000000000C98
-t1266416268
-s3224
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleGrey.png
-c000000004B7BFA8C0000000000000C8C
-t1266416268
-s3212
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleMagenta.png
-c000000004B7BFA8C0000000000000CB8
-t1266416268
-s3256
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleOrange.png
-c000000004B7BFA8C0000000000000CC0
-t1266416268
-s3264
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubblePurple.png
-c000000004B7BFA8C0000000000000C94
-t1266416268
-s3220
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleRed.png
-c000000004B7BFA8C0000000000000CBB
-t1266416268
-s3259
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleYellow.png
-c000000004B7BFA8C0000000000000CC2
-t1266416268
-s3266
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/English.lproj/GCCalendar.strings
-c000000004B7BFA8C0000000000000068
-t1266416268
-s104
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendar.h
-c000000004B89844A0000000000000783
-t1267303498
-s1923
-i<UIKit/UIKit.h>
-i"GCCalendarView.h"
-i"GCCalendarEvent.h"
-i"GCCalendarProtocols.h"
-i"GCCalendarPortraitView.h"
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendar.m
-c000000004B89844A000000000000098C
-t1267303498
-s2444
-i"GCCalendar.h"
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarDayView.h
-c000000004B89844A00000000000004D6
-t1267303498
-s1238
-i<UIKit/UIKit.h>
-i"GCCalendarProtocols.h"
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarDayView.m
-c000000004B89844A0000000000002845
-t1267303498
-s10309
-i"GCCalendarDayView.h"
-i"GCCalendarTile.h"
-i"GCCalendarView.h"
-i"GCCalendarEvent.h"
-i"GCCalendar.h"
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarEvent.h
-c000000004B89844A00000000000005A9
-t1267303498
-s1449
-i<Foundation/Foundation.h>
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarEvent.m
-c000000004B89844A0000000000000295
-t1267303498
-s661
-i"GCCalendarEvent.h"
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarPortraitView.h
-c000000004B89844A0000000000000564
-t1267303498
-s1380
-i<UIKit/UIKit.h>
-i"GCCalendarView.h"
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarPortraitView.m
-c000000004B89844A0000000000001943
-t1267303498
-s6467
-i"GCCalendarPortraitView.h"
-i"GCCalendarDayView.h"
-i"GCCalendarTile.h"
-i"GCDatePickerControl.h"
-i"GCCalendar.h"
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarProtocols.h
-c000000004B89844A0000000000000222
-t1267303498
-s546
-i<Foundation/Foundation.h>
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarTile.h
-c000000004B89844A00000000000002CC
-t1267303498
-s716
-i<UIKit/UIKit.h>
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarTile.m
-c000000004B89844A0000000000000BE9
-t1267303498
-s3049
-i"GCCalendarTile.h"
-i"GCCalendarEvent.h"
-i"GCCalendar.h"
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarView.h
-c000000004B89844A00000000000001EF
-t1267303498
-s495
-i<UIKit/UIKit.h>
-i"GCCalendarProtocols.h"
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarView.m
-c000000004B89844A00000000000000F8
-t1267303498
-s248
-i"GCCalendarView.h"
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControl.h
-c000000004B89844A0000000000000351
-t1267303498
-s849
-i<UIKit/UIKit.h>
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControl.m
-c000000004B89844A000000000000112A
-t1267303498
-s4394
-i"GCDatePickerControl.h"
-i"GCCalendar.h"
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControlBackground.png
-c000000004B7BFA8C0000000000000B42
-t1266416268
-s2882
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControlLeft.png
-c000000004B7BFA8C0000000000000C5F
-t1266416268
-s3167
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControlRight.png
-c000000004B7BFA8C0000000000000C86
-t1266416268
-s3206
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/Calendar.LinkFileList
-c000000004B8984BF0000000000000614
-t1267303615
-s1556
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/CalendarAppDelegate.o
-t1267303616
-s45812
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendar.o
-t1267303616
-s13308
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarDayView.o
-t1267303617
-s60524
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarEvent.o
-t1267303616
-s13760
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarPortraitView.o
-t1267303617
-s51364
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarTile.o
-t1267303617
-s24392
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarView.o
-t1267303617
-s29728
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCDatePickerControl.o
-t1267303617
-s26832
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/main.o
-t1267303616
-s6216
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app
-t1267303617
-s612
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app.dSYM
-t1267303617
-s102
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Calendar
-t1267303617
-s69368
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Calendar.png
-t1267303615
-s220
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/CalendarBubbleBlue.png
-t1267303615
-s3219
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/CalendarBubbleGreen.png
-t1267303615
-s3224
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/CalendarBubbleGrey.png
-t1267303615
-s3212
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/CalendarBubbleMagenta.png
-t1267303615
-s3256
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/CalendarBubbleOrange.png
-t1267303615
-s3264
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/CalendarBubblePurple.png
-t1267303615
-s3220
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/CalendarBubbleRed.png
-t1267303615
-s3259
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/CalendarBubbleYellow.png
-t1267303615
-s3266
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/English.lproj/GCCalendar.strings
-t1267303615
-s114
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/GCDatePickerControlBackground.png
-t1267303615
-s2882
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/GCDatePickerControlLeft.png
-t1267303615
-s3167
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/GCDatePickerControlRight.png
-t1267303615
-s3206
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Info.plist
-t1267303615
-s537
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/PkgInfo
-t1267303615
-s8
-
-N/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/main.m
-c000000004B5BC27C0000000000000181
-t1264304764
-s385
-i<UIKit/UIKit.h>
-
-N/var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch.gch
-t1267303616
-s13034960
-
-NCalendar-Info.plist
-c000000004B5BB3E40000000000000326
-t1264301028
-s806
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies288996415#288996415#0(0"0(0#1#0"7947009927035180032#0"0#
-
-CCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/CalendarAppDelegate.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/Classes/CalendarAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s288996416.646272
-e288996416.836768
-r1
-xCompileC
-xbuild/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/CalendarAppDelegate.o
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/Classes/CalendarAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@114"Compile /Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/Classes/CalendarAppDelegate.m288996416#288996416#0(0"0(0#0#106"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/Classes/CalendarAppDelegate.m4300885448#2357"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-generated-files.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-own-target-headers.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-all-target-headers.hmap" -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-project-headers.hmap" "-F/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/include" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources/i386" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources" -include /var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch -c "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/Classes/CalendarAppDelegate.m" -o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/CalendarAppDelegate.o"0#
-
-CCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendar.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendar.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s288996416.806078
-e288996416.882450
-r1
-xCompileC
-xbuild/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendar.o
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendar.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@108"Compile /Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendar.m288996416#288996416#0(0"0(0#0#100"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendar.m4300885448#2342"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-generated-files.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-own-target-headers.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-all-target-headers.hmap" -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-project-headers.hmap" "-F/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/include" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources/i386" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources" -include /var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch -c "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendar.m" -o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendar.o"0#
-
-CCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarDayView.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarDayView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s288996416.836885
-e288996417.014877
-r1
-xCompileC
-xbuild/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarDayView.o
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarDayView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@115"Compile /Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarDayView.m288996416#288996417#0(0"0(0#0#107"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarDayView.m4300885448#2356"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-generated-files.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-own-target-headers.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-all-target-headers.hmap" -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-project-headers.hmap" "-F/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/include" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources/i386" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources" -include /var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch -c "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarDayView.m" -o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarDayView.o"0#
-
-CCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarEvent.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarEvent.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s288996416.882561
-e288996416.945338
-r1
-xCompileC
-xbuild/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarEvent.o
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarEvent.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@113"Compile /Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarEvent.m288996416#288996416#0(0"0(0#0#105"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarEvent.m4300885448#2352"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-generated-files.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-own-target-headers.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-all-target-headers.hmap" -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-project-headers.hmap" "-F/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/include" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources/i386" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources" -include /var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch -c "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarEvent.m" -o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarEvent.o"0#
-
-CCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarPortraitView.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarPortraitView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s288996416.945453
-e288996417.062641
-r1
-xCompileC
-xbuild/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarPortraitView.o
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarPortraitView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@120"Compile /Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarPortraitView.m288996416#288996417#0(0"0(0#0#112"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarPortraitView.m4300885448#2366"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-generated-files.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-own-target-headers.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-all-target-headers.hmap" -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-project-headers.hmap" "-F/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/include" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources/i386" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources" -include /var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch -c "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarPortraitView.m" -o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarPortraitView.o"0#
-
-CCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarTile.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarTile.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s288996417.014988
-e288996417.116891
-r1
-xCompileC
-xbuild/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarTile.o
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarTile.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@112"Compile /Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarTile.m288996417#288996417#0(0"0(0#0#104"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarTile.m4300885448#2350"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-generated-files.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-own-target-headers.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-all-target-headers.hmap" -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-project-headers.hmap" "-F/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/include" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources/i386" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources" -include /var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch -c "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarTile.m" -o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarTile.o"0#
-
-CCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarView.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s288996417.062753
-e288996417.154945
-r1
-xCompileC
-xbuild/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarView.o
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@112"Compile /Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarView.m288996417#288996417#0(0"0(0#0#104"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarView.m4300885448#2350"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-generated-files.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-own-target-headers.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-all-target-headers.hmap" -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-project-headers.hmap" "-F/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/include" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources/i386" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources" -include /var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch -c "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCCalendarView.m" -o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCCalendarView.o"0#
-
-CCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCDatePickerControl.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControl.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s288996417.117026
-e288996417.202378
-r1
-xCompileC
-xbuild/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCDatePickerControl.o
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControl.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@117"Compile /Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControl.m288996417#288996417#0(0"0(0#0#109"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControl.m4300885448#2360"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-generated-files.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-own-target-headers.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-all-target-headers.hmap" -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-project-headers.hmap" "-F/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/include" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources/i386" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources" -include /var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch -c "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControl.m" -o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/GCDatePickerControl.o"0#
-
-CCompileC build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/main.o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s288996416.644826
-e288996416.805855
-r1
-xCompileC
-xbuild/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/main.o
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/main.m288996416#288996416#0(0"0(0#0#83"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/main.m4300885448#2319"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-generated-files.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-own-target-headers.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-all-target-headers.hmap" -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-project-headers.hmap" "-F/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/include" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources/i386" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources" -include /var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch -c "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/main.m" -o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/main.o"0#
-
-CCopyStringsFile "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/English.lproj/GCCalendar.strings" GCCalendar/English.lproj/GCCalendar.strings
-s288996415.360183
-e288996415.672180
-r1
-xCopyStringsFile
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/English.lproj/GCCalendar.strings
-xGCCalendar/English.lproj/GCCalendar.strings
-lSLF07#2@48"Copy GCCalendar/English.lproj/GCCalendar.strings288996415#288996415#0(0"0(0#0#120"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/English.lproj/GCCalendar.strings4300885448#586"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary GCCalendar/English.lproj/GCCalendar.strings --outdir "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/English.lproj"0#
-
-CCpResource build/Debug-iphonesimulator/Calendar.app/Calendar.png GCCalendar/Calendar.png
-s288996415.334886
-e288996415.463354
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Calendar.app/Calendar.png
-xGCCalendar/Calendar.png
-lSLF07#2@28"Copy GCCalendar/Calendar.png288996415#288996415#0(0"0(0#0#100"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/Calendar.png4300885448#588"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/Calendar.png" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"0#
-
-CCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleBlue.png GCCalendar/CalendarBubbleBlue.png
-s288996415.354589
-e288996415.462919
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Calendar.app/CalendarBubbleBlue.png
-xGCCalendar/CalendarBubbleBlue.png
-lSLF07#2@38"Copy GCCalendar/CalendarBubbleBlue.png288996415#288996415#0(0"0(0#0#110"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleBlue.png4300885448#598"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleBlue.png" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"0#
-
-CCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleGreen.png GCCalendar/CalendarBubbleGreen.png
-s288996415.355577
-e288996415.466802
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Calendar.app/CalendarBubbleGreen.png
-xGCCalendar/CalendarBubbleGreen.png
-lSLF07#2@39"Copy GCCalendar/CalendarBubbleGreen.png288996415#288996415#0(0"0(0#0#111"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleGreen.png4300885448#599"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleGreen.png" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"0#
-
-CCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleGrey.png GCCalendar/CalendarBubbleGrey.png
-s288996415.356315
-e288996415.473105
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Calendar.app/CalendarBubbleGrey.png
-xGCCalendar/CalendarBubbleGrey.png
-lSLF07#2@38"Copy GCCalendar/CalendarBubbleGrey.png288996415#288996415#0(0"0(0#0#110"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleGrey.png4300885448#598"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleGrey.png" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"0#
-
-CCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleMagenta.png GCCalendar/CalendarBubbleMagenta.png
-s288996415.356954
-e288996415.469975
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Calendar.app/CalendarBubbleMagenta.png
-xGCCalendar/CalendarBubbleMagenta.png
-lSLF07#2@41"Copy GCCalendar/CalendarBubbleMagenta.png288996415#288996415#0(0"0(0#0#113"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleMagenta.png4300885448#601"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleMagenta.png" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"0#
-
-CCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleOrange.png GCCalendar/CalendarBubbleOrange.png
-s288996415.357594
-e288996415.465203
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Calendar.app/CalendarBubbleOrange.png
-xGCCalendar/CalendarBubbleOrange.png
-lSLF07#2@40"Copy GCCalendar/CalendarBubbleOrange.png288996415#288996415#0(0"0(0#0#112"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleOrange.png4300885448#600"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleOrange.png" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"0#
-
-CCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubblePurple.png GCCalendar/CalendarBubblePurple.png
-s288996415.358230
-e288996415.468609
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Calendar.app/CalendarBubblePurple.png
-xGCCalendar/CalendarBubblePurple.png
-lSLF07#2@40"Copy GCCalendar/CalendarBubblePurple.png288996415#288996415#0(0"0(0#0#112"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubblePurple.png4300885448#600"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubblePurple.png" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"0#
-
-CCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleRed.png GCCalendar/CalendarBubbleRed.png
-s288996415.358867
-e288996415.472515
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Calendar.app/CalendarBubbleRed.png
-xGCCalendar/CalendarBubbleRed.png
-lSLF07#2@37"Copy GCCalendar/CalendarBubbleRed.png288996415#288996415#0(0"0(0#0#109"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleRed.png4300885448#597"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleRed.png" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"0#
-
-CCpResource build/Debug-iphonesimulator/Calendar.app/CalendarBubbleYellow.png GCCalendar/CalendarBubbleYellow.png
-s288996415.359535
-e288996415.463501
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Calendar.app/CalendarBubbleYellow.png
-xGCCalendar/CalendarBubbleYellow.png
-lSLF07#2@40"Copy GCCalendar/CalendarBubbleYellow.png288996415#288996415#0(0"0(0#0#112"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleYellow.png4300885448#600"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/CalendarBubbleYellow.png" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"0#
-
-CCpResource build/Debug-iphonesimulator/Calendar.app/GCDatePickerControlBackground.png GCCalendar/GCDatePickerControlBackground.png
-s288996415.473200
-e288996415.483951
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Calendar.app/GCDatePickerControlBackground.png
-xGCCalendar/GCDatePickerControlBackground.png
-lSLF07#2@49"Copy GCCalendar/GCDatePickerControlBackground.png288996415#288996415#0(0"0(0#0#121"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControlBackground.png4300885448#609"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControlBackground.png" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"0#
-
-CCpResource build/Debug-iphonesimulator/Calendar.app/GCDatePickerControlLeft.png GCCalendar/GCDatePickerControlLeft.png
-s288996415.474527
-e288996415.481642
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Calendar.app/GCDatePickerControlLeft.png
-xGCCalendar/GCDatePickerControlLeft.png
-lSLF07#2@43"Copy GCCalendar/GCDatePickerControlLeft.png288996415#288996415#0(0"0(0#0#115"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControlLeft.png4300885448#603"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControlLeft.png" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"0#
-
-CCpResource build/Debug-iphonesimulator/Calendar.app/GCDatePickerControlRight.png GCCalendar/GCDatePickerControlRight.png
-s288996415.476577
-e288996415.486183
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/Calendar.app/GCDatePickerControlRight.png
-xGCCalendar/GCDatePickerControlRight.png
-lSLF07#2@44"Copy GCCalendar/GCDatePickerControlRight.png288996415#288996415#0(0"0(0#0#116"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControlRight.png4300885448#604"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/GCCalendar/GCDatePickerControlRight.png" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"0#
-
-CGenerateDSYMFile "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app.dSYM" "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Calendar"
-s288996417.644613
-e288996417.740705
-r1
-xGenerateDSYMFile
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app.dSYM
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Calendar
-lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Calendar.app.dSYM build/Debug-iphonesimulator/Calendar.app/Calendar288996417#288996417#0(0"0(0#0#126"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Calendar4300885448#506"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Calendar" -o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app.dSYM"0#
-
-CLd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Calendar" normal i386
-s288996417.202482
-e288996417.644504
-r1
-xLd
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Calendar
-xnormal
-xi386
-lSLF07#2@131"Link /Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Calendar288996417#288996417#0(0"0(0#0#0"4300885448#1069"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk "-L/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator" "-F/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator" -filelist "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Objects-normal/i386/Calendar.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Calendar"0#
-
-CProcessInfoPlistFile "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Info.plist" Calendar-Info.plist
-s288996415.304991
-e288996415.334758
-r1
-xProcessInfoPlistFile
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Info.plist
-xCalendar-Info.plist
-lSLF07#2@27"Process Calendar-Info.plist288996415#288996415#0(0"0(0#0#96"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/Calendar-Info.plist2334397744802981376#602"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Calendar-Info.plist -genpkginfo "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app/Info.plist"0#
-
-CProcessPCH /var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch.gch Calendar_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s288996415.672357
-e288996416.644706
-r1
-xProcessPCH
-x/var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch.gch
-xCalendar_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@30"Precompile Calendar_Prefix.pch288996415#288996416#0(0"0(0#0#96"/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/Calendar_Prefix.pch4300885448#2170"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-generated-files.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-own-target-headers.hmap" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-all-target-headers.hmap" -iquote "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/Calendar-project-headers.hmap" "-F/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/include" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources/i386" "-I/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Calendar.build/Debug-iphonesimulator/Calendar.build/DerivedSources" -c "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/Calendar_Prefix.pch" -o /var/folders/wy/wyK9UzOwHUy4d2wGUFDcqk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Calendar_Prefix-cuxjhzdyawjxrcfiodcdtyewfjev/Calendar_Prefix.pch.gch0#
-
-CTouch "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"
-s288996417.740799
-e288996417.778481
-r1
-xTouch
-x/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app
-lSLF07#2@123"Touch /Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app288996417#288996417#0(0"0(0#0#0"4300885448#359"    cd "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/calebdavenport/Documents/Software Development/git/GCCalendar/Calendar/build/Debug-iphonesimulator/Calendar.app"0#
-
